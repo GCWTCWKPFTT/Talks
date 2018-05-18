@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.osgi_3.11.3.v20170209-1843.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.core.commands_3.8.1.v20161221-1651.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.core.runtime_3.12.0.v20160606-1342.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.text_3.6.0.v20160503-1849.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.105.3.v20170228-0512.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.jface_3.12.2.v20170113-2113.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.jface.text_3.11.2.v20170220-1911.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.ui.workbench_3.108.3.v20170216-1539.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/com.ibm.icu_56.1.0.v201601250100.jar" />
+    <libelement value="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.ui.forms_3.7.1.v20161220-1635.jar" />
+    <libelement value="jar://$MODULE_DIR$/jgoodies-common-1.8.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/jgoodies-forms-1.8.0.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library name="org.eclipse.osgi_3.11.3.v20170209-1843.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.osgi_3.11.3.v20170209-1843.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.osgi_3.11.3.v20170209-1843.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.commands_3.8.1.v20161221-1651.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.core.commands_3.8.1.v20161221-1651.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.core.commands_3.8.1.v20161221-1651.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.common_3.8.0.v20160509-1230.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.runtime_3.12.0.v20160606-1342.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.core.runtime_3.12.0.v20160606-1342.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.core.runtime_3.12.0.v20160606-1342.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.text_3.6.0.v20160503-1849.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.text_3.6.0.v20160503-1849.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.text_3.6.0.v20160503-1849.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.swt.win32.win32.x86_64_3.105.3.v20170228-0512.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.105.3.v20170228-0512.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.105.3.v20170228-0512.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.jface_3.12.2.v20170113-2113.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.jface_3.12.2.v20170113-2113.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.jface_3.12.2.v20170113-2113.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.jface.text_3.11.2.v20170220-1911.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.jface.text_3.11.2.v20170220-1911.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.jface.text_3.11.2.v20170220-1911.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.ui.workbench_3.108.3.v20170216-1539.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.ui.workbench_3.108.3.v20170216-1539.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.ui.workbench_3.108.3.v20170216-1539.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.ibm.icu_56.1.0.v201601250100.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/com.ibm.icu_56.1.0.v201601250100.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/com.ibm.icu_56.1.0.v201601250100.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.ui.forms_3.7.1.v20161220-1635.jar">
+        <CLASSES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.ui.forms_3.7.1.v20161220-1635.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/桌面文件夹/eclipse/plugins/org.eclipse.ui.forms_3.7.1.v20161220-1635.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jgoodies-common-1.8.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jgoodies-common-1.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/jgoodies-common-1.8.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jgoodies-forms-1.8.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/jgoodies-forms-1.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/jgoodies-forms-1.8.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
