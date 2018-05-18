@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ea2740-8385-4033-b89f-d7033da91354" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Main_GUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Main_GUI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Main_GUI$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Main_GUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Register$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Server$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Server$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Server$ClientThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Server$ServerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Talk$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Talk$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Talk$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Talk$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Talk$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Talk$MessageThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/Talk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testsocket/User_more.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgoodies-common-1.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgoodies-common-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgoodies-forms-1.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgoodies-forms-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsocket/Main_GUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsocket/Register.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsocket/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsocket/Talk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsocket/User_more.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/testsocket/User_more.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testsocket.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/testsocket/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1439">
-              <caret line="298" selection-start-line="298" selection-end-line="298" />
+            <state relative-caret-position="131">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1194#1488#0" expanded="true" />
@@ -120,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Talk.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Talk.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/testsocket/Talk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6821">
-              <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
+            <state relative-caret-position="247">
+              <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1297#1316#0" expanded="true" />
@@ -149,8 +113,18 @@
       <file leaf-file-name="User_more.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/testsocket/User_more.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="356">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/java/testsocket/Register.java" />
         <option value="$PROJECT_DIR$/src/java/testsocket/Server.java" />
         <option value="$PROJECT_DIR$/src/java/testsocket/Talk.java" />
+        <option value="$PROJECT_DIR$/src/java/testsocket/User_more.java" />
       </list>
     </option>
   </component>
@@ -257,7 +232,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="133" />
     <option name="y" value="43" />
     <option name="width" value="1145" />
@@ -279,30 +254,6 @@
             <path>
               <item name="testsocket" type="b2602c69:ProjectViewProjectNode" />
               <item name="testsocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testsocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testsocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testsocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testsocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testsocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testsocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testsocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testsocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testsocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testsocket" type="b2602c69:ProjectViewProjectNode" />
@@ -471,7 +422,7 @@
       <workItem from="1526286509884" duration="2870000" />
       <workItem from="1526636128234" duration="8135000" />
       <workItem from="1526648448825" duration="1701000" />
-      <workItem from="1526650312391" duration="3651000" />
+      <workItem from="1526650312391" duration="4234000" />
     </task>
     <servers />
   </component>
@@ -508,7 +459,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16357000" />
+    <option name="totallyTimeSpent" value="16940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,10 +472,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50907713" side_tool="true" visible="true" weight="0.26841244" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -535,16 +485,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49955475" weight="0.24181817" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49167928" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49092284" weight="0.3289689" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49092284" visible="true" weight="0.26841244" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49016643" weight="0.26841244" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49955475" weight="0.32909092" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22314675" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22314675" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -825,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/testsocket/User_more.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/testsocket/dao/impl/DaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -902,10 +845,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/daoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/testsocket/User_more.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/testsocket/Talk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1297#1316#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#3167#4427#0" expanded="true" />
+            <element signature="e#4426#4427#0" expanded="true" />
+            <element signature="e#4646#5437#0" expanded="true" />
+            <element signature="e#5436#5437#0" expanded="true" />
+            <element signature="e#5906#6043#0" expanded="true" />
+            <element signature="e#6042#6043#0" expanded="true" />
+            <element signature="e#6133#6267#0" expanded="true" />
+            <element signature="e#6266#6267#0" expanded="true" />
+            <element signature="e#6645#6883#0" expanded="true" />
+            <element signature="e#6882#6883#0" expanded="true" />
+            <element signature="e#8718#8750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/testsocket/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1439">
-          <caret line="298" selection-start-line="298" selection-end-line="298" />
+        <state relative-caret-position="131">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1194#1488#0" expanded="true" />
@@ -923,40 +917,6 @@
             <element signature="e#6664#6665#0" expanded="true" />
             <element signature="e#6699#6700#0" expanded="true" />
             <element signature="e#8288#8320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/daoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/testsocket/Talk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6821">
-          <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1297#1316#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-            <element signature="e#3167#4427#0" expanded="true" />
-            <element signature="e#4426#4427#0" expanded="true" />
-            <element signature="e#4646#5437#0" expanded="true" />
-            <element signature="e#5436#5437#0" expanded="true" />
-            <element signature="e#5906#6043#0" expanded="true" />
-            <element signature="e#6042#6043#0" expanded="true" />
-            <element signature="e#6133#6267#0" expanded="true" />
-            <element signature="e#6266#6267#0" expanded="true" />
-            <element signature="e#6645#6883#0" expanded="true" />
-            <element signature="e#6882#6883#0" expanded="true" />
-            <element signature="e#8718#8750#0" expanded="true" />
           </folding>
         </state>
       </provider>
