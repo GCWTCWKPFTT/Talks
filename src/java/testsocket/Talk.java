@@ -45,7 +45,7 @@ public class Talk {
     private MessageThread messageThread;// 负责接收消息的线程
     private boolean isConnected = false;
     private String hostIp="127.0.0.1";
-    private String name="高超";
+    private String name;
     /**
      * Launch the application.
      */
@@ -61,6 +61,7 @@ public class Talk {
      */
     public Talk() {
         initialize();
+
     }
 
     /**
@@ -355,5 +356,10 @@ public class Talk {
         writer.println(message);
         writer.flush();
 
+    }
+
+
+    public static void main(String[] args) {
+        new Talk();
     }
 }

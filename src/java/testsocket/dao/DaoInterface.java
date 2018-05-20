@@ -28,5 +28,14 @@ public interface DaoInterface {
     boolean register(User user) throws PropertyVetoException, SQLException;
 
 
+    /**
+     * queryByID
+     *
+     * @param name
+     * @return
+     * @throws PropertyVetoException
+     * @throws SQLException
+     */
 
+      User Login1(String name) throws PropertyVetoException, SQLException;
 }

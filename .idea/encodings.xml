@@ -4,8 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/java/testsocket/Main_GUI.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/java/testsocket/Register.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/java/testsocket/Server.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/java/testsocket/Talk.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/java/testsocket/Server.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/testsocket/Talk.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/java/testsocket/User_more.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/java/testsocket/dao/impl/DaoImpl.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
