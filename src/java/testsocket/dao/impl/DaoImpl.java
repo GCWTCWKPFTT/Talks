@@ -70,7 +70,7 @@ public class DaoImpl implements DaoInterface {
 
         if (user1==null) {
              sql = "insert into user(name,password) values(?,?)";
-            qr.update(sql, user.getName(), user.getPassword());
+            qr.update(sql, user.getName(), MD5Util.MD5EncodeUtf8(user.getPassword()));
 
             return true;
         } else {
@@ -104,7 +104,7 @@ public class DaoImpl implements DaoInterface {
         User user= (User) qr.query(sql, new BeanHandler(User.class),name);
 
         if(user!=null){
-            System.out.println("登陆成功！！！");
+            System.out.println("数据库验证成功！！！");
             return user;
         }
 

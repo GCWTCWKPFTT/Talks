@@ -44,33 +44,33 @@ import javax.swing.JTextArea;
 public class ASserver {
 
 
-        void receive(String ip, int port) {
-            ServerSocket server = null;
+    void receive(String ip, int port) {
+        ServerSocket server = null;
+        try {
+            server = new ServerSocket(port);
+            Socket socket = server.accept();
+
+            System.out.println("等待client发送消息...");
+            ASrunnable task = new ASrunnable(socket);
+
+            new Thread(task).start();
+            Thread.sleep(10000);
+
+
+        } catch (Exception e) {
+            System.out.println("e1" + e);
+        } finally {
             try {
-                server = new ServerSocket(port);
-                Socket socket = server.accept();
-
-                    System.out.println("等待client发送消息...");
-                    ASrunnable task = new ASrunnable(socket);
-
-                    new Thread(task).start();
-                    Thread.sleep(10000);
-
-
-            } catch (Exception e) {
-                System.out.println("e1" + e);
-            } finally {
-                try {
-                    if (server != null) {
-                        server.close();
-                    }
-                } catch (Exception e3) {
-                    System.out.println("e2" + e3);
+                if (server != null) {
+                    server.close();
                 }
-
+            } catch (Exception e3) {
+                System.out.println("e2" + e3);
             }
 
         }
+
+    }
 
 
     public static void main(String[] args) throws PropertyVetoException, SQLException {

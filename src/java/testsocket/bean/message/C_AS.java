@@ -11,13 +11,13 @@ public class C_AS {
     private  String head;
     private String IDc;
     private String IDtgs;
-    private String TS1;
+    private long TS1;
 
     public C_AS() {
 
     }
 
-    public C_AS(String head, String IDc, String IDtgs, String TS1) {
+    public C_AS(String head, String IDc, String IDtgs, long TS1) {
         this.head = head;
         this.IDc = IDc;
         this.IDtgs = IDtgs;
@@ -37,7 +37,7 @@ public class C_AS {
 
         IDtgs=temp[1];
 
-        TS1=temp[2];
+        TS1=Long.parseLong(temp[2]);
 
         return true;
 
@@ -74,11 +74,11 @@ public class C_AS {
         this.IDtgs = IDtgs;
     }
 
-    public String getTS1() {
+    public long getTS1() {
         return TS1;
     }
 
-    public void setTS1(String TS1) {
+    public void setTS1(long TS1) {
         this.TS1 = TS1;
     }
 }

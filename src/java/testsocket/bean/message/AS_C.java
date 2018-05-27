@@ -11,8 +11,8 @@ public class AS_C {
 
     private String Kc_tgs;
     private String IDtgs;
-    private String TS2;
-    private String LifeTime2;
+    private long TS2;
+    private long LifeTime2;
 
     private TicketTGS ticketTGS;
 
@@ -22,19 +22,33 @@ public class AS_C {
     }
 
 
-   /* public boolean DealwithMessage(String messageC_AS){
+    public boolean DealwithMessage(String messageC_AS){
 
         head=messageC_AS.substring(0,2);
-        String message=messageC_AS.substring(2);
+        String message=messageC_AS.substring(3);
+        //System.out.println(message);
 
         String [] temp=message.split(" ");
+        if(temp.length!=10) {
+            System.out.println("处理消息失败！");
+            return false;
+        }
+        Kc_tgs=temp[0];
+        IDtgs=temp[1];
+        TS2=Long.parseLong(temp[2]);
+        LifeTime2=Long.parseLong(temp[3]);
+        ticketTGS=new TicketTGS(temp[4],temp[5],temp[6],temp[7],Long.parseLong(temp[8]),Long.parseLong(temp[9]));
+
+        return true;
 
 
 
 
-    }*/
 
-    public AS_C(String head, String kc_tgs, String IDtgs, String TS2, String lifeTime2, TicketTGS ticketTGS) {
+
+    }
+
+    public AS_C(String head, String kc_tgs, String IDtgs, long TS2, long lifeTime2, TicketTGS ticketTGS) {
         this.head = head;
         Kc_tgs = kc_tgs;
         this.IDtgs = IDtgs;
@@ -64,19 +78,19 @@ public class AS_C {
         this.IDtgs = IDtgs;
     }
 
-    public String getTS2() {
+    public long getTS2() {
         return TS2;
     }
 
-    public void setTS2(String TS2) {
+    public void setTS2(long TS2) {
         this.TS2 = TS2;
     }
 
-    public String getLifeTime2() {
+    public long getLifeTime2() {
         return LifeTime2;
     }
 
-    public void setLifeTime2(String lifeTime2) {
+    public void setLifeTime2(long lifeTime2) {
         LifeTime2 = lifeTime2;
     }
 

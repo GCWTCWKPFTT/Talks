@@ -1,12 +1,11 @@
-package testsocket.AS; /*
+package testsocket.TGS; /*
  * create by weikunpeng
- * 2018/5/20 22:15
+ * 2018/5/27 15:08
  */
 
+
 import testsocket.bean.User;
-import testsocket.bean.message.AS_C;
-import testsocket.bean.message.C_AS;
-import testsocket.bean.message.TicketTGS;
+import testsocket.bean.message.*;
 import testsocket.dao.impl.DaoImpl;
 import testsocket.util.MD5Util;
 
@@ -19,10 +18,10 @@ import java.net.Socket;
 import java.sql.SQLException;
 import java.util.Date;
 
-class ASrunnable implements Runnable {
+class TGSrunnable implements Runnable {
     private Socket socket ;
 
-    public ASrunnable (Socket socket) {
+    public TGSrunnable (Socket socket) {
         this.socket=socket;
     }
 
@@ -40,67 +39,61 @@ class ASrunnable implements Runnable {
         try {
             String ip = socket.getInetAddress().toString();
             System.out.println("ip :"+ip);
-            System.out.println("AS服务器就绪...");
+            System.out.println("TGS服务器就绪...");
             br=new BufferedReader(new InputStreamReader(socket.getInputStream()));
             pw=new PrintWriter(socket.getOutputStream(),true);
-            String  messageC_AS=br.readLine();
-            if (messageC_AS!=null) {
+            String  messageC_TGS=br.readLine();
+            if (messageC_TGS!=null) {
                 //String messageC_AS="11 wei 11 22";//from C
 
-                C_AS c_as=new C_AS();
+                C_TGS c_tgs=new C_TGS();
 
-                c_as.DealwithMessage(messageC_AS);
+                c_tgs.DealWithMessageC_TGS(messageC_TGS);
 
-                System.out.println(c_as.getC_AS());
+                System.out.println(messageC_TGS);
 
-                if(c_as.getHead().equals("11")){
-
-                    //Date
-
-                    //TODO  JDBC 连数据库
-
-                    DaoImpl dao=new DaoImpl();
-                    User user=dao.Login1(c_as.getIDc());
-
-                    System.out.println(user.getName());
+                if(c_tgs.getHead().equals("11")){
 
 
 
-                    if(user==null)  {
+                    //TODo
 
-                        //ToDo
-                        //如果这个用户在数据中没有找到
-                    }
+                    //TGS验证过程
 
 
 
-                    String kc_tgs="12345678";
-
-                    String IDc=user.getName();
-
-                    String ADc="127.0.0.1";
-
-                    String IDtgs="1";
-
-                    long TS2=System.currentTimeMillis();
+                    //处理返回数据包的过程 下面的是我用最简单的模拟
 
 
-                    long currentTime = System.currentTimeMillis() + 30 * 60 * 1000;
+                    long TS4=System.currentTimeMillis();
+                    long lifeTime4 = System.currentTimeMillis() + 30 * 60 * 1000;
+
+                    TicketV ticketV=new TicketV("k_cv","IDc","ADc","IDv",TS4,lifeTime4);
+
+                    TGS_C tgs_c=new TGS_C("11","kc_v","IDv",TS4,ticketV);
 
 
 
-                    TicketTGS ticketTGS=new TicketTGS(kc_tgs,IDc,ADc,IDtgs,TS2,currentTime);
+                    String messageTGS_C=tgs_c.getTGS_C();
 
-                    AS_C as_c=new AS_C("11",kc_tgs,IDtgs,TS2,currentTime,ticketTGS);
+                    System.out.println(messageTGS_C);
 
 
-                    String messageAS_C=as_c.getAS_C();
 
-                    System.out.println(messageAS_C);
+
+
+
+
+
+
+
+                    //String messageAS_C=as_c.getAS_C();
+
+                    //System.out.println(messageAS_C);
 
 
                     PrintWriter printWriter = new PrintWriter(socket.getOutputStream());
-                    printWriter.println(messageAS_C);
+                   printWriter.println(messageTGS_C);
                     printWriter.flush();
 
 
@@ -111,11 +104,11 @@ class ASrunnable implements Runnable {
 
                 }
 
-                if(c_as.getHead().equals("12")){
+                if(c_tgs.getHead().equals("12")){
 
                 }
 
-                if( c_as.getHead().equals("00")){
+                if( c_tgs.getHead().equals("00")){
 
                 }
 

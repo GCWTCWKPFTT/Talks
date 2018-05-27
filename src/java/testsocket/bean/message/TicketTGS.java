@@ -13,15 +13,15 @@ public class TicketTGS {
     private String IDc;
     private String ADc;
     private  String IDtgs;
-    private  String TS2;
-    private  String lifeTime2;
+    private  long TS2;
+    private  long lifeTime2;
 
 
     public TicketTGS() {
 
     }
 
-    public TicketTGS(String kc_tgs, String IDc, String ADc, String IDtgs, String TS2, String lifeTime2) {
+    public TicketTGS(String kc_tgs, String IDc, String ADc, String IDtgs, long TS2, long lifeTime2) {
         Kc_tgs = kc_tgs;
         this.IDc = IDc;
         this.ADc = ADc;
@@ -69,19 +69,19 @@ public class TicketTGS {
         this.IDtgs = IDtgs;
     }
 
-    public String getTS2() {
+    public long getTS2() {
         return TS2;
     }
 
-    public void setTS2(String TS2) {
+    public void setTS2(long TS2) {
         this.TS2 = TS2;
     }
 
-    public String getLifeTime2() {
+    public long getLifeTime2() {
         return lifeTime2;
     }
 
-    public void setLifeTime2(String lifeTime2) {
+    public void setLifeTime2(long lifeTime2) {
         this.lifeTime2 = lifeTime2;
     }
 
