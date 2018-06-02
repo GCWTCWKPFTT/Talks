@@ -1,32 +1,35 @@
-package testsocket.bean.message; /*
- * create by weikunpeng
- * 2018/5/20 18:57
- */
-
-import com.sun.xml.internal.bind.v2.model.core.ID;
-
-public class C_AS {
-
-
-    private  String head;
-    private String IDc;
+package testsocket.bean.message;
+/*
+ * C_AS类包括以下部分：
+ * 1、C向AS发送报文时报文的生成
+ * 输入参数private String IDc;
     private String IDtgs;
     private long TS1;
-
+    2、AS解析该
+ */
+public class C_AS {
+	private static final String head = "01"; //包头的判断在处理之前。
+	
+	private String IDc;
+    private String IDtgs;
+    private long TS1;
+    
     public C_AS() {
 
     }
-
-    public C_AS(String head, String IDc, String IDtgs, long TS1) {
-        this.head = head;
-        this.IDc = IDc;
+    public C_AS(String IDc,String IDtgs,long TS1) {
+    	this.IDc = IDc;
         this.IDtgs = IDtgs;
         this.TS1 = TS1;
     }
-
+    public C_AS(String message) {
+    	
+    }
     public boolean DealwithMessage(String messageC_AS){
-
-        head=messageC_AS.substring(0,2);
+    	//C_AS 处理函数 处理之前要判断包头，及包长度
+    	
+//        head=messageC_AS.substring(0,2);
+    	
         String message=messageC_AS.substring(3);
         //System.out.println(message);
 
@@ -41,44 +44,27 @@ public class C_AS {
 
         return true;
 
-
-
-
     }
-
-    public String getHead() {
-        return head;
+    
+    public String getC_AS() {
+    	//返回完整报文
+    	return IDc+" "+IDtgs+" "+TS1;
     }
+    
+	public static String getHead() {
+		return head;
+	}
+	public String getIDc() {
+		return IDc;
+	}
 
-    public void setHead(String head) {
-        this.head = head;
-    }
+	public String getIDtgs() {
+		return IDtgs;
+	}
 
-    public String getC_AS(){
-        return head+" "+IDc+" "+IDtgs+" "+TS1;
-    }
+	public long getTS1() {
+		return TS1;
+	}
+    
 
-    public String getIDc() {
-        return IDc;
-    }
-
-    public void setIDc(String IDc) {
-        this.IDc = IDc;
-    }
-
-    public String getIDtgs() {
-        return IDtgs;
-    }
-
-    public void setIDtgs(String IDtgs) {
-        this.IDtgs = IDtgs;
-    }
-
-    public long getTS1() {
-        return TS1;
-    }
-
-    public void setTS1(long TS1) {
-        this.TS1 = TS1;
-    }
 }

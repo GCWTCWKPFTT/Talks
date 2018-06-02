@@ -16,7 +16,7 @@ public class daoTest {
 
         //System.out.println(dao.Login("wei","123"));
 
-        User user=new User("汪天赐","111");
+        User user=new User("gaochao","123");
 
         System.out.println(dao.register(user));
 

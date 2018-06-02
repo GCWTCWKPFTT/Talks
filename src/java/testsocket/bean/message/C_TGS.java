@@ -1,78 +1,56 @@
-package testsocket.bean.message; /*
- * create by weikunpeng
- * 2018/5/27 15:24
- */
+package testsocket.bean.message;
+
+import testsocket.common.Const;
+
+import java.io.UnsupportedEncodingException;
 
 public class C_TGS {
-
-    private String head;
-    private String IDv;
+	private static final String head = "03"; //包头的判断在处理之前。
+	
+	private String IDv;
     private TicketTGS ticketTGS;
     private Authenticator authenticator;
-
+    
     public C_TGS() {
-
+    	
     }
-
-    public C_TGS(String head, String IDv, TicketTGS TicketTGS, Authenticator a) {
-        this.head = head;
-        this.IDv = IDv;
-        this.ticketTGS = TicketTGS;
-        this.authenticator = a;
+    public C_TGS(String message) {
+    	
     }
-
-    public boolean DealWithMessageC_TGS(String messageC_TGS){
-        head=messageC_TGS.substring(0,2);
+    public boolean DealwithMessage(String messageC_TGS) throws UnsupportedEncodingException{
+    	//C_TGS 处理函数 处理之前要判断包头，及包长度
         String message=messageC_TGS.substring(3);
-        //System.out.println(message);
 
         String [] temp=message.split(" ");
-        if(temp.length!=10) return false;
+        if(temp.length!=3) return false;
 
         IDv=temp[0];
-
-        ticketTGS=new TicketTGS(temp[1],temp[2],temp[3],temp[4],Long.parseLong(temp[5]),Long.parseLong(temp[6]));
-        authenticator=new Authenticator(temp[7],temp[8],Long.parseLong(temp[9]));
-
+        String string_TicketTGS = temp[1];
+        String string_Authenticator=temp[2];
+        
+//        String string_TicketTGS_M = DES.des(string_TicketTGS, Const.ktgs, 2);
+        ticketTGS = new TicketTGS();
+        ticketTGS.DealwithMessage(string_TicketTGS,Const.ktgs);
+        
+        String Kc_tgs = ticketTGS.getKctgs();
+        authenticator = new Authenticator();
+        authenticator.DealwithMessage(string_Authenticator, Kc_tgs);
+        
         return true;
     }
-
-    public String getC_TGS(){
-
-        return head+" "+IDv+" "+ticketTGS.getTicketTGS()+" "+authenticator.getAuthenticator();
-
-    }
-
-
-    public String getHead() {
-        return head;
-    }
-
-    public void setHead(String head) {
-        this.head = head;
-    }
-
-    public String getIDv() {
-        return IDv;
-    }
-
-    public void setIDv(String IDv) {
-        this.IDv = IDv;
-    }
-
-    public TicketTGS getTicketTGS() {
-        return ticketTGS;
-    }
-
-    public void setTicketTGS(TicketTGS ticketTGS) {
-        ticketTGS = ticketTGS;
-    }
-
-    public Authenticator getAuthenticator() {
-        return authenticator;
-    }
-
-    public void setAuthenticator(Authenticator authenticator) {
-        authenticator = authenticator;
-    }
+	public static String getHead() {
+		return head;
+	}
+	public String getIDv() {
+		return IDv;
+	}
+	public TicketTGS getTicketTGS() {
+		return ticketTGS;
+	}
+	public Authenticator getAuthenticator() {
+		return authenticator;
+	}
+    
+    
+    
 }

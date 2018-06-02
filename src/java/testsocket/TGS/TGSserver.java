@@ -1,17 +1,12 @@
-package testsocket.TGS; /*
- * create by weikunpeng
- * 2018/5/27 15:08
- */
-
-
-
+package testsocket.TGS; 
 
 
 import java.beans.PropertyVetoException;
-
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.sql.SQLException;
+
+import testsocket.common.Const;
 
 
 public class TGSserver {
@@ -20,14 +15,17 @@ public class TGSserver {
     void receive(String ip, int port) {
         ServerSocket server = null;
         try {
-            server = new ServerSocket(port);
-            Socket socket = server.accept();
 
-            System.out.println("等待client发送消息...");
-            TGSrunnable task = new TGSrunnable(socket);
+                server = new ServerSocket(port);
+             while (true) {
+                System.out.println("TGS等待client发送消息...");
 
-            new Thread(task).start();
-            Thread.sleep(10000);
+                Socket socket = server.accept();
+                TGSrunnable task = new TGSrunnable(socket);
+
+                new Thread(task).start();
+                //Thread.sleep(10000);
+            }
 
 
         } catch (Exception e) {
@@ -50,7 +48,7 @@ public class TGSserver {
 
 
         TGSserver tgSserver=new TGSserver();
-        tgSserver.receive("127.0.0.1", 9998);
+        tgSserver.receive(Const.IP_TGS, Const.PORT_TGS);
 
     }
 }
